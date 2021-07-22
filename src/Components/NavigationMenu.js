@@ -5,12 +5,12 @@ function NavigationMenu(props){
     return (
         <div>
             <div className="font-bold py-3">
-                AppName
+                Reacty
             </div>
             <ul>
                 <li>
-                    <Link 
-                        to="/" 
+                    <Link
+                        to="/"
                         className="text-blue-500 py-3 border-t border-b block"
                         onClick={props.closeMenu}
                     >
@@ -18,8 +18,8 @@ function NavigationMenu(props){
                     </Link>
                 </li>
                 <li>
-                    <Link 
-                        to="/about" 
+                    <Link
+                        to="/about"
                         className="text-blue-500 py-3 border-b block"
                         onClick={props.closeMenu}
                     >

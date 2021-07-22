@@ -4,11 +4,11 @@ import {
   Switch,
   Route
 } from "react-router-dom"
-import Header from '/../myreact/src/Components/Header'
-import Footer from '../../myreact/src/Components/Footer'
-import Home from '../../myreact/src/Views/Home'
-import About from '../../myreact/src/Views/About'
-import Product from '../../myreact/src/Views/Product'
+import Header from './Components/Header'
+import Footer from './Components/Footer'
+import Home from './Views/Home'
+import About from './Views/About'
+import Product from './Views/Product'
 
 function App() {
   return (
